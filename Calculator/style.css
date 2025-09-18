@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppines', sans-serif;
+    /* background-color: rgb(113, 228, 145); */
+}
+#container{
+    margin: 50px;
+    background-color: rgb(37, 37, 37);
+    width: 500px;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 20px 40px rgb(0, 0, 0);
+} 
+
+#inp{
+
+    padding: 10px;
+    margin-top: 20px;
+    height: 80px;
+    width: 460px;
+    background-color: rgb(171, 170, 164);
+    text-align: right;
+    font-size: 60px;
+    font-weight: bolder;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgb(209, 208, 211);
+    border: 3px solid black;
+
+}
+
+.inner{
+    display: flex;
+    width: 460px;
+    /* height: px; */
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(4,1fr);
+}
+.button{
+    color: white;
+    font-size: 20px;
+    /* font-weight: bold; */
+    justify-content: center;
+    margin: 10px;
+    margin-left: 40px;
+    height: 60px;
+    width: 55px;
+    background-color: rgb(21, 21, 21);
+    border: 2px solid rgb(34, 34, 34);
+    box-shadow: 0 2px 20px rgba(241, 242, 243, 0.5);
+    border-radius: 50%;
+    
+}
+
+.button:hover{
+    background-color: rgb(121, 123, 123);
+    opacity: 1;
+}
+
+.ac{
+    background-color: rgb(116, 78, 152);
+    opacity: 0.8;
+}
+.equal{
+    background-color: rgb(199, 155, 162);
+    opacity: 0.8;
+}
+.equal:hover{
+    background-color: rgb(199, 155, 162);
+    opacity: 1;
+}
+.ac:hover{
+    background-color: rgb(116, 78, 152);
+    opacity: 1;
+}
+.bl{
+    background-color: rgb(88, 92, 118);
+}
+#inp[type= "text"]{
+    border-color: black;
+    
+}
