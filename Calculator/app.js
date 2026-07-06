@@ -13,7 +13,7 @@ arr.forEach(button =>{
             string = "";
             inp.value = string;
         }else if(e.target.innerHTML == 'DEL'){
-            string = string.substring(0,string.length-1);
+            string = string.slice(0,string.length-1);
             inp.value = string;
         }else if(e.target.innerHTML == '( )'){
             let openCount = (string.match(/\(/g) || []).length;
